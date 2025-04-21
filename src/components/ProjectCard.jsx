@@ -1,0 +1,1 @@
+// A placeholder component for project cards
