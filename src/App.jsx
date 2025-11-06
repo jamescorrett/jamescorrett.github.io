@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';  // Import your CSS file here
+import './styles.css';
 
 export default function App() {
   const [hover, setHover] = useState(null);
