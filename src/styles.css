@@ -1,9 +1,7 @@
-/* styles.css */
 
-/* General Body */
 body {
-    background-color: #192c46;  /* Dark Sea Blue background */
-    color: #e0e1dd;  /* Light Gray text */
+    background-color: #192c46;
+    color: #e0e1dd;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +9,7 @@ body {
   
   /* Header */
   h1, h2 {
-    color: #e0e1dd;  /* Light Gray for headers */
+    color: #e0e1dd;
   }
   
   h2 {
@@ -21,10 +19,10 @@ body {
   
   /* Styling for the squares */
   .square {
-    flex: 1 1 calc(25% - 1rem);  /* 4 squares in a row */
-    height: 250px;  /* Adjust the height to make the squares rectangular */
-    background-color: #151c2b;  /* Dark Blue for squares */
-    color: #e0e1dd;  /* Light Gray text */
+    flex: 1 1 calc(25% - 1rem); 
+    height: 250px; 
+    background-color: #151c2b; 
+    color: #e0e1dd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +32,7 @@ body {
   }
   
   .square:hover {
-    background-color: #3a537e;  /* Steel Blue for hover */
+    background-color: #3a537e;
     transform: scale(1.1);
   }
   
@@ -46,23 +44,23 @@ body {
   .centered-content h4 {
     font-size: 18px;
     margin-bottom: 1rem;
-    color: #e0e1dd;  /* Light Gray for header */
+    color: #e0e1dd; 
   }
   
   .centered-content p {
     margin: 0.5rem 0;
     font-size: 14px;
-    color: #e0e1dd;  /* Light Gray text */
+    color: #e0e1dd;
   }
   
   /* Contact Info */
   h3 {
-    color: #e0e1dd;  /* Light Gray for section headers */
+    color: #e0e1dd; 
     font-size: 1.2rem;
   }
   
   a {
-    color: #8aafdf;  /* Light Steel Blue links */
+    color: #8aafdf;
     text-decoration: none;
   }
   
@@ -73,7 +71,7 @@ body {
   /* Optional: Adjust for smaller screens */
   @media (max-width: 768px) {
     .square {
-      flex: 1 1 45%;  /* Adjust for smaller screens, make them 2 per row */
+      flex: 1 1 45%;  
       height: 200px;
     }
   }
